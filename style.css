@@ -12,21 +12,20 @@ header{
 }
 
 main{
-    width: 100%;
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
+    max-width: 960px;
+    margin: 50px auto;
 }
 
 .flow-wrap{
-    width: 960px;
+    width: 100%;
     display: flex;
 }
 
 .flow-box{
     width: 300px;
-    position: relative;
     margin-right: 30px;
+    padding: 10px;
+    position: relative;
     background-color: #eee;
 }
 
@@ -41,10 +40,6 @@ main{
     background-color: #ff9a4b;
     display: inline-block;
     color: #fff;
-}
-
-.box-item{
-    padding: 10px;
 }
 
 .flow-img{
@@ -85,11 +80,13 @@ footer{
     .flow-wrap{
         width: 90%;
         display: block;
+        margin: 0 auto;
     }
 
     .flow-box{
         width: 100%;
         margin-right: 0;
+        padding: 0;
         margin-bottom: 20px;
     }
 
